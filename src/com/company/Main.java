@@ -33,8 +33,8 @@ public class Main {
 
 for (Figure x: figures) {
     System.out.println(x.getType());
-    System.out.println(x.getPerimeter());
-    System.out.println(x.getArea());
+    System.out.println("Perimeter: "+x.getPerimeter());
+    System.out.println("Area: "+x.getArea());
 
 }
     }
